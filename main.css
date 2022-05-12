@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parta{
+    background-image: url(./images_desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #3dbeff;
+    background-position: center ;
+    /* border: 2px solid red; */
+    height: 98vh;
+    width: 98.5vw;
+}
+.parta img{
+    margin-top: 2%;
+    margin-left: 47.5%;
+}
+
+.logo{
+    height: 8vh;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    width: 40%;
+    font-size: 1.8rem;
+    padding-left: 3%;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.nav{
+    height: 8vh;
+    /* border: 2px solid green; */
+    width: 50%;
+    padding-top: 1%;
+    display: inline-block;
+    float: right;
+}
+.nav a{
+    text-decoration: none;
+    padding-left: 10%;
+    color: aliceblue;
+    font-size: 1.4rem;
+}
+
+#contact{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 5%;
+    padding: 1%;
+}
+
+header{
+    /* border: 2px solid pink; */
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+    margin-top: 10%;
+    margin-left: 24%;
+    letter-spacing: 15px;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.part2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    gap: 0;
+}
+
+.trans, .standout{
+    background-color: #fffbf8;
+}
+.t, .s{
+    /* border: 2px solid red; */
+    margin-top: 25%;
+    margin-left: 17%;
+}
+.head_t, .head_s{
+    /* border: 2px solid green; */
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    width: 25vw;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.para_s, .para_t{
+    /* border: 2px solid yellow; */
+    font-size: 1.2rem;
+    width: 75vh;
+    margin-bottom: 5%;
+    color: grey;
+}
+.more_btn{
+    text-decoration: underline;
+    font-family: 'Fraunces', serif;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: black;
+}
+.t_btn{
+    text-decoration-color: yellow;
+    text-decoration-thickness: 5px;
+}
+.s_btn{
+    text-decoration-color: pink;
+    text-decoration-thickness: 5px;
+}
+
+.st_img img, .t_img img{
+    object-fit: cover;
+    max-width: 49.3vw;
+}
+.graphic{
+    background-image: url(./images_desktop/image-graphic-design.jpg);
+    height: 90vh;
+}
+.photography{
+    background-image: url(./images_desktop/image-photography.jpg);
+    height: 90vh;
+
+}
+.p_in, .g_in{
+    /* border: 2px solid red; */
+    height: 20vh;
+    text-align: center;
+    margin-top: 55%;
+}
+.p_in h3, .g_in h3{
+    letter-spacing: 5px;
+    font-family: 'Fraunces', serif;
+    font-size: 1.6rem;
+    margin-bottom: 6%;
+}
+.p_in p, .g_in p{
+    font-size: 1.2rem;
+}
+.p_in{
+    color: #215686;
+    width: 27vw;
+    margin-left: 31%;
+}
+.g_in{
+    color: #467c6e;
+    width: 32vw;
+    margin-left: 25%;
+}
+
+
+.client{
+    background-color: #dfe0e3;
+    height: 90vh;
+}
+.testi_header{
+    /* border: 2px solid red; */
+    color: gray;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top:5%;
+}
+.client_box{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p_img img {
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin-bottom: 5%;
+    margin-left: 34%;
+}
+.p_para{
+    height: 15vh;
+    /* border: 2px solid green; */
+    color: grey;
+    font-size: 1.2rem;
+    line-height: 25px;
+    text-align: center;
+    width:27vw;
+    margin-bottom: 10%;
+}
+.p_name{
+    /* border: 1px solid yellow; */
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 4%;
+    font-size: 1.3rem;
+}
+.p_desig{
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+
+.pictures{
+    display: flex;
+}
+.pictures img{
+    width: 25%;
+    height: 70vh;
+
+}
+
+footer{
+    background-color: #90d4c5;
+    height: 50vh;
+}
+.foot_heading{
+    padding-top: 5%;
+    color: #2c7466;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.services{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-left: 30%;
+    width: 40vw;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.services a{
+    text-decoration: none;
+    color: #2c7466;
+}
+.socio_icons{
+    display: flex;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    width: 20vw;
+    margin-left: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+}
