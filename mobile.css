@@ -94,7 +94,7 @@
     .parta{
         background-image: url(./images_mobile/image-header.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center ;
         height: 65vh;
     }
